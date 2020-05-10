@@ -1,6 +1,6 @@
 #first of all I will begin with taking valid inputs from user
 #This should include whether it's a Circle or a Triangle
-Object= char(input("Enter C for circle and T for Triangle"))
+Object= (str(input("Enter C for circle and T for Triangle:    "))
 if(Object==C):
   r= float(input("Enter the Radius"))
   area= 3.14 * r *r
